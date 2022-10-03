@@ -1,0 +1,43 @@
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkcyan;
+}
+.nav_img {
+  width: 6rem;
+  margin: 10px;
+  height: auto;
+}
+.ham_icon {
+  display: none;
+}
+.nav_ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  gap: 10vw;
+}
+
+.nav_ul a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .ham_icon {
+    display: block;
+  }
+  .nav_ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ham_icon {
+    display: block;
+  }
+  .nav_ul .responsive {
+  }
+}
