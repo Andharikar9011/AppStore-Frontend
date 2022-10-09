@@ -1,4 +1,4 @@
-nav {
+.nav_main {
   width: 100%;
   display: flex;
   align-items: center;
@@ -14,15 +14,25 @@ nav {
   display: none;
 }
 .nav_ul {
-  list-style: none;
-  padding: 0px;
   display: flex;
   gap: 10vw;
 }
 
-.nav_ul a {
+.hamdrop {
+  display: none;
+}
+
+.hamdrop a {
+  background-color: darkcyan;
   text-decoration: none;
   color: black;
+  display: block;
+  padding: 1rem;
+  text-align: center;
+}
+.hamdrop a:hover {
+  background-color: black;
+  color: beige;
 }
 
 @media screen and (max-width: 600px) {
@@ -32,12 +42,7 @@ nav {
   .nav_ul {
     display: none;
   }
-}
-
-@media screen and (max-width: 600px) {
-  .ham_icon {
-    display: block;
-  }
-  .nav_ul .responsive {
+  .hamdrop {
+    display: contents;
   }
 }

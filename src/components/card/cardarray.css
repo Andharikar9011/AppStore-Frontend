@@ -1,0 +1,14 @@
+.category_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.card_array {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  width: 100%;
+}
